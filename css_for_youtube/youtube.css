@@ -1,11 +1,8 @@
 .youtube-video {
     width: 300px;
     display: inline-block;
-}
-
-.search-button,
-.search-bar {
-    display: inline-block;
+    vertical-align:top;
+    margin:5px;
 }
 
 .thumbnail {
@@ -15,22 +12,35 @@
 
 }
 
+.channel-picture{
+    width:50px;
+    display:inline-block;
+    height:50px;
+    vertical-align:top;
+
+}
 .profile-pic {
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: inline-block;
-    object-fit: cover;
+    display:inline-block;
+    width:40px;
+
+
+}
+.video-info{
+    display:inline-block;
+    width:200px;
 }
 
 .youtube-caption {
-    font-weight: bold;
-    font-size: 16px;
-    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
     color: black;
     margin: 0;
-    width: 250px;
     display: inline-block;
+    line-height:20px;
+    font-weight:500;
+    letter-spacing:normal;
+
 }
 
 .poster {
