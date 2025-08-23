@@ -2,6 +2,7 @@
     height: 55px;
     display: flex;
     flex-direction:row;
+    justify-content:space-between;
 }
 .left-section {
     background-color:lightblue;
@@ -10,6 +11,7 @@
 }
 .middle-section {
     background-color:lightpink;
+    max-width: 500px;
     flex:1;
 }
 .right-section {
