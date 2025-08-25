@@ -1,0 +1,15 @@
+{
+    "schedule": "daily",
+    "compressImagesInSubDirectories": true,
+    "aggressiveCompression": false,
+    "ignoredFiles": [
+        "*.avif"
+    ],
+    "minKBReduced": 10,
+    "prTitle": "[ImgBot] Optimize images",
+    "prBody": "**ImgBot optimized images**\n\nBeep boop! Your images have been optimized!\n\n*Please* review the changes and merge if everything looks good.",
+    "compressWEBP": true,
+    "compressPNG": true,
+    "compressJPG": true,
+    "compressSVG": true
+}
