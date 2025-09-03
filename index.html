@@ -1,149 +1,215 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Youtube-Practice</title>
-    <link rel="stylesheet" href="css_for_youtube/video.css">
-    <link rel="stylesheet" href="css_for_youtube/header.css">
-    <link rel="stylesheet" href="css_for_youtube/general.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube-Practice</title>
+    <link rel="stylesheet" href="css_for_youtube/video.css" />
+    <link rel="stylesheet" href="css_for_youtube/header.css" />
+    <link rel="stylesheet" href="css_for_youtube/general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="youtube-header">
-        <div class="left-section">
-
-            <div class="menu-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
-                </svg>
-            </div>
-            <div class="logo-container">
-                <img class="mytube-logo" src="resources/logo-removebg-preview.png">
-
-            </div>
+      <div class="left-section">
+        <div class="menu-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+          </svg>
         </div>
-        <div class="middle-section">
-            <div class="search-icon-container">
-                <input class="search-bar" type="text" class="search-bar" placeholder="Search">
-                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" ><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"></path></svg>
-            </div>
-            <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" ><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"></path></svg></button> 
+        <div class="logo-container">
+          <img class="mytube-logo" src="resources/logo-removebg-preview.png" />
         </div>
-        <div class="right-section">
-            right section
+      </div>
+      <div class="middle-section">
+        <div class="search-icon-container">
+          <input class="search-bar" type="text" placeholder="Search" />
+          <svg
+            class="search-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
         </div>
+        <button class="search-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="voice-icon-container">
+          <button class="voice-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="right-section">
+        <button class="create-button">
+          <span class="icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20"
+              width="20"
+              fill="currentColor"
+            >
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" /></svg
+          ></span>
+          <span class="create-text"> Create </span>
+        </button>
+        <div>
+          <button class="notification-bell">
+            <svg viewBox="0 0 24 24">
+              <path
+                clip-rule="evenodd"
+                d="m13.497 4.898.053.8.694.4C15.596 6.878 16.5 8.334 16.5 10v2.892c0 .997.27 1.975.784 2.83L18.35 17.5H5.649l1.067-1.778c.513-.855.784-1.833.784-2.83V10c0-1.666.904-3.122 2.256-3.902l.694-.4.053-.8c.052-.78.703-1.398 1.497-1.398.794 0 1.445.618 1.497 1.398ZM6 10c0-2.224 1.21-4.165 3.007-5.201C9.11 3.236 10.41 2 12 2c1.59 0 2.89 1.236 2.993 2.799C16.79 5.835 18 7.776 18 10v2.892c0 .725.197 1.436.57 2.058l1.521 2.535c.4.667-.08 1.515-.857 1.515H15c0 .796-.316 1.559-.879 2.121-.562.563-1.325.879-2.121.879s-1.559-.316-2.121-.879C9.316 20.56 9 19.796 9 19H4.766c-.777 0-1.257-.848-.857-1.515L5.43 14.95c.373-.622.57-1.333.57-2.058V10Zm4.5 9c0 .398.158.78.44 1.06.28.282.662.44 1.06.44s.78-.158 1.06-.44c.282-.28.44-.662.44-1.06h-3Z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="profile-container">
+            <img class="profile-pic" src="resources/profile.jpg" alt="Just a random profile that I found online">
+        </div>
+      </div>
     </div>
     <div class="youtube-grid-container">
-
-        <div class="youtube-video">
-            <div>
-                <img class="thumbnail" src="Thumbnail/hqdefault.jpg">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-pic" src="profile-picture/channels4_profile.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="youtube-caption">@THECHAINSMOKERS - All We Know (Lyrics) ft. Phoebe Ryan</p>
-                    <p class="poster">Dan Music</p>
-                    <p class="info">448k views &middot; 1 year ago</p>
-                </div>
-            </div>
+      <div class="youtube-video">
+        <div>
+          <img class="thumbnail" src="Thumbnail/hqdefault.jpg" />
         </div>
-
-
-        <div class="youtube-video">
-            <div>
-                <img class="thumbnail" src="Thumbnail/hq720.avif">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-pic" src="profile-picture/channels4_profile (1).jpg">
-                </div>
-                <div class="video-info">
-                    <p class="youtube-caption">CLEVATESS | Episode #7 (EN Sub / JP Dub) 【Ani-One Philippines】</p>
-                    <p class="poster">Ani-One Philippines <span class="checkmark">&#10003;</span>
-                    </p>
-                    <p class="info">54k views &middot; 5 days ago</p>
-                </div>
-            </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-pic"
+              src="profile-picture/channels4_profile.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="youtube-caption">
+              @THECHAINSMOKERS - All We Know (Lyrics) ft. Phoebe Ryan
+            </p>
+            <p class="poster">Dan Music</p>
+            <p class="info">448k views &middot; 1 year ago</p>
+          </div>
         </div>
+      </div>
 
-        <div class="youtube-video">
-            <div>
-                <img class="thumbnail" src="Thumbnail/backtobeingfriends.avif">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-pic" src="profile-picture\deepbluesounds.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="youtube-caption">sombr - back to friends (lyrics)</p>
-                    <p class="poster">deep blue sounds</p>
-                    <p class="info">10M views &middot; 7 months ago</p>
-                </div>
-            </div>
+      <div class="youtube-video">
+        <div>
+          <img class="thumbnail" src="Thumbnail/hq720.avif" />
         </div>
-
-
-        <div class="youtube-video">
-            <div>
-                <img class="thumbnail" src="Thumbnail/abcdefu.avif">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-pic" src="profile-picture/latinhype.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="youtube-caption">GAYLE - abcdefu</p>
-                    <p class="poster">LatinHype</p>
-                    <p class="info">28M views &middot; 3 years ago</p>
-                </div>
-            </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-pic"
+              src="profile-picture/channels4_profile (1).jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="youtube-caption">
+              CLEVATESS | Episode #7 (EN Sub / JP Dub) 【Ani-One Philippines】
+            </p>
+            <p class="poster">
+              Ani-One Philippines <span class="checkmark">&#10003;</span>
+            </p>
+            <p class="info">54k views &middot; 5 days ago</p>
+          </div>
         </div>
+      </div>
 
-        <div class="youtube-video">
-            <div>
-                <img class="thumbnail" src="Thumbnail/jjk.avif">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-pic" src="profile-picture/Jason.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="youtube-caption">JUDAS | SHINJUKU SHOWDOWN ARC FULL FIGHT ANIMATION AMV</p>
-                    <p class="poster">Jason</p>
-                    <p class="info">8.6M views &middot; 8 months ago</p>
-                </div>
-            </div>
+      <div class="youtube-video">
+        <div>
+          <img class="thumbnail" src="Thumbnail/backtobeingfriends.avif" />
         </div>
-
-
-        <div class="youtube-video">
-            <div>
-                <img class="thumbnail" src="Thumbnail/bait.avif">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-pic" src="profile-picture/cyon.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="youtube-caption">THIS is not a joke</p>
-                    <p class="poster">Cyon <span class="checkmark">&#10003;</span>
-                    </p>
-                    <p class="info">1.1M views &middot; 9 months ago</p>
-                </div>
-            </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="profile-picture\deepbluesounds.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="youtube-caption">sombr - back to friends (lyrics)</p>
+            <p class="poster">deep blue sounds</p>
+            <p class="info">10M views &middot; 7 months ago</p>
+          </div>
         </div>
+      </div>
 
+      <div class="youtube-video">
+        <div>
+          <img class="thumbnail" src="Thumbnail/abcdefu.avif" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="profile-picture/latinhype.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="youtube-caption">GAYLE - abcdefu</p>
+            <p class="poster">LatinHype</p>
+            <p class="info">28M views &middot; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="youtube-video">
+        <div>
+          <img class="thumbnail" src="Thumbnail/jjk.avif" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="profile-picture/Jason.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="youtube-caption">
+              JUDAS | SHINJUKU SHOWDOWN ARC FULL FIGHT ANIMATION AMV
+            </p>
+            <p class="poster">Jason</p>
+            <p class="info">8.6M views &middot; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="youtube-video">
+        <div>
+          <img class="thumbnail" src="Thumbnail/bait.avif" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="profile-picture/cyon.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="youtube-caption">THIS is not a joke</p>
+            <p class="poster">Cyon <span class="checkmark">&#10003;</span></p>
+            <p class="info">1.1M views &middot; 9 months ago</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

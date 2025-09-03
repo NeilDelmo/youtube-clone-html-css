@@ -1,5 +1,11 @@
+:root {
+    --border-blue: oklch(0.6766 0.138 238.47);
+}
+
 body{
     margin: 0;
+    height: 3000px;
+    padding-top:60px;
 }
 * {
     box-sizing:border-box;
